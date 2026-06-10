@@ -18,6 +18,6 @@ En esta seccion  se implementaran las siguientes estructuras dinamicas lineales
 
 ## Fecha: 10/06/2026
 - Descripcion: 
-En este ejercicio se implementó el método esPalindromo, el cual verifica si una cadena es palíndroma utilizando una pila implementada con ArrayDeque. Cada carácter del texto se inserta en la pila y luego se extrae para construir la cadena invertida. Finalmente, se compara el texto original con el invertido para determinar si la palabra es palíndroma.
+En este ejercicio se implementó el método esPalindromo, el cual verifica si una cadena es palindroma utilizando una pila  con ArrayDeque. Cada carácter del texto se inserta en la pila y luego se extrae para crear la cadena invertida. Al final, se compara el texto original con el invertido para saber si la palabra es palindroma.
 
 ![alt text](image-1.png)
