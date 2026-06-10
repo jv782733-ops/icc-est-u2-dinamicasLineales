@@ -9,7 +9,22 @@ public class App {
        runLinkedList();
        runQueue();
        runStack();
+       System.out.println("\n===== EJERCICIO 2 =====");
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+
+        String palabra1 = "radar";
+        String palabra2 = "computacion";
+
+        System.out.println(palabra1 + " -> "
+                + ejercicio2.esPalindromo(palabra1));
+
+        System.out.println(palabra2 + " -> "
+                + ejercicio2.esPalindromo(palabra2));
     }
+
+
+    
+
 
     private static void runStack() {
         //hay tres formas de instancias pilas 
@@ -32,7 +47,7 @@ public class App {
 
 
     }
-
+    
     private static void runQueue() {
         Queue<String>cola= new ArrayDeque<>();
         cola.offer("Jose");
@@ -57,6 +72,7 @@ public class App {
     //ofer -> agrega al final 
     //peek -> devuelve el primero sin eliminar 
     // poll -> devuleve el primero y lo elimina 
+    
 
     private static void runLinkedList() {
          System.out.println("Lista enlazada");
